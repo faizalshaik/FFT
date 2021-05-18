@@ -1,0 +1,24 @@
+LIBRARY FFTLib
+EXPORTS
+	ConfigureFilter			    @1
+    SetGains					@2
+	SetChannels					@3
+	SetFunctions				@4
+	SetConstants				@5	
+	Start						@6
+	Pause						@7
+	GetStats					@8
+
+	GetFrequencyIntensity		@9
+	GetMagnitudeSqrd			@10
+	GetMagnitudeNormalized		@11
+	GetAmplitude				@12
+	IndexToFrequency			@13
+	GetDecibels					@14
+	GetMagnitude				@15
+	GetDecible10				@16
+	SquaredMagnitude			@17
+	GetNoisePower				@18
+	GetPowerSpectrum			@19
+	CalcFFT						@20
+	SetCalcRange				@21
